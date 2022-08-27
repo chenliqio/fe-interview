@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 方法一 使用select标签 -->
+    <div>
+    <span>兔子爱吃什么</span>
+    <select>
+        <option value ="萝卜">萝卜</option>
+        <option value ="胡萝卜">胡萝卜</option>
+        <option value="青菜">青菜</option>
+        <option value="大白菜">大白菜</option>
+      </select>
+    </div>
+     <!-- 方法二 使用input标签 -->
+     <div>
+        <span>大灰狼爱吃什么</span>
+     <input id="type" type="text" list="typelist" placeholder="请选择">
+        <datalist id="typelist">
+            <option>白兔子</option> 
+            <option>黑兔子</option>
+            <option>灰兔子</option>
+        </datalist>
+    </div>
+</body>
+</html>

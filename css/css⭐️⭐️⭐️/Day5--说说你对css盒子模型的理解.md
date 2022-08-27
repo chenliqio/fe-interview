@@ -1,0 +1,11 @@
+## 一、CSS的盒子模型有哪些
+  标准盒子模型、IE盒子模型
+
+## 二、CSS的盒子模型区别
+  标准盒子模型：margin、border、padding、content
+  IE盒子模型 ：margin、content（ border +  padding  + content ）
+  
+## 三、通过CSS如何转换盒子模型
+  box-sizing: content-box;  /*标准盒子模型*/
+  box-sizing: border-box;   /*IE盒子模型*/
+
